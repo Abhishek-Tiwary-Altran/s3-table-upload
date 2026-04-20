@@ -1,0 +1,11 @@
+{
+    "csv_file_path": "Attendance-Database-for-EBA.csv",
+    "s3_upload_bucket": "test-bpm-ceiu-1",
+    "s3_upload_prefix": "Dataset/",
+    "table_bucket_name": "ceiu-attendance-table-bucket-new",
+    "namespace": "attendance_database",
+    "table_name": "attendance",
+    "region": "us-east-1",
+    "athena_workgroup": "primary",
+    "athena_output_location": "s3://test-bpm-ceiu-1/athena-results/"
+}
